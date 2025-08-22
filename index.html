@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- GRID CONTAINER: Main layout structure -->
+    <div class="main-container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1>My Responsive Website</h1>
+            <p>Demonstrating CSS Grid, Flexbox, and Responsive Design</p>
+        </header>
+
+        <!-- Navigation (using Flexbox) -->
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="content">
+            <h2>Welcome to PLP Week4 Assignment</h2>
+            <p>
+                This webpage demonstrates the power of modern CSS layout techniques. 
+                We're using CSS Grid for the overall page structure, which gives us 
+                precise control over how our sections are positioned relative to each other.
+            </p>
+            <p>
+                The navigation bar uses Flexbox to evenly distribute menu items horizontally, 
+                and on mobile devices, it switches to a vertical stack for better usability.
+            </p>
+
+            <!-- Cards Section (using Flexbox) -->
+            <div class="cards-container">
+                <h3>Our Features</h3>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Responsive</h3>
+                        <p>Adapts to any screen size beautifully</p>
+                    </div>
+                    <div class="card">
+                        <h3>Modern CSS</h3>
+                        <p>Uses Grid and Flexbox for layouts</p>
+                    </div>
+                    <div class="card">
+                        <h3>Clean Code</h3>
+                        <p>Well-organized and maintainable</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h3>Quick Links</h3>
+            <div class="sidebar-item">
+                <strong>CSS Grid</strong><br>
+                Perfect for 2D layouts
+            </div>
+            <div class="sidebar-item">
+                <strong>Flexbox</strong><br>
+                Great for 1D arrangements
+            </div>
+            <div class="sidebar-item">
+                <strong>Media Queries</strong><br>
+                Responsive breakpoints
+            </div>
+            <div class="sidebar-item">
+                <strong>Mobile First</strong><br>
+                Design philosophy
+            </div>
+        </aside>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Responsive Web Design Assignment for week 4. Built with CSS Grid, Flexbox, and lots of ❤️</p>
+        </footer>
+    </div>
+</body>
+</html>
